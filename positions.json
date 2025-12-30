@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ffe3329f-6836-4114-b71a-288a85518ac9",
+    "proposal_id": "0df5a951-8e0c-40c9-a93f-18ce6d2259c3",
+    "timestamp": "2025-12-29T08:37:00.573936",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "fill_price": 1.17592012,
+    "size": 0.1,
+    "commission": 0.0,
+    "slippage_incurred": 0.00023512
+  },
+  {
+    "id": "d907550b-670e-4fc1-a408-22371f30335d",
+    "proposal_id": "e30d8d3f-9da9-4cdd-b53c-76fa513f27b2",
+    "timestamp": "2025-12-29T22:01:00.609013",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "fill_price": 1.177585452,
+    "size": 0.1,
+    "commission": 0.0,
+    "slippage_incurred": 0.000235452
+  }
+]

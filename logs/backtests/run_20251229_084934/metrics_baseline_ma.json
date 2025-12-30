@@ -1,0 +1,12 @@
+{
+  "total_trades": 1,
+  "win_rate": 1.0,
+  "net_profit": 115.0,
+  "avg_trade": 115.0,
+  "avg_win": 115.0,
+  "avg_loss": 0.0,
+  "profit_factor": Infinity,
+  "max_drawdown": 0.0,
+  "max_drawdown_pct": 0.0,
+  "equity_final": 10115.0
+}

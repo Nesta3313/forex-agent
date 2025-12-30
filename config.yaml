@@ -1,0 +1,81 @@
+system:
+  mode: SHADOW # SHADOW, PAPER, LIVE
+  log_level: INFO
+  currency_pair: "EUR/USD"
+  timeframe: "4h"
+
+risk:
+  max_risk_per_trade: 0.01 # 1%
+  max_open_positions: 3
+  daily_loss_cap: 0.02 # 2%
+  weekly_drawdown_cap: 0.05 # 5%
+  portfolio:
+    max_total_risk_pct: 0.05 # 5% total account risk
+    max_correlated_risk_pct: 0.03 # 3% max for correlated groups
+    default_correlation: 0.5
+    correlation_groups:
+      "USD_STRENGTH": ["EUR_USD", "GBP_USD", "AUD_USD", "NZD_USD"]
+      "USD_WEAKNESS": ["USD_JPY", "USD_CHF", "USD_CAD"]
+      "YEN_PAIRS": ["USD_JPY", "EUR_JPY", "GBP_JPY"]
+  management:
+    trailing_stop:
+      enabled: true
+      activation_pips: 30
+      distance_pips: 20
+    break_even:
+      enabled: true
+      activation_pips: 20
+    partial_tp:
+      enabled: false
+      steps:
+        - pips: 50
+          percent: 0.5
+
+data:
+  source: "oanda" 
+  oanda:
+    environment: "practice"
+    instrument_map:
+      "EURUSD": "EUR_USD"
+      "EUR/USD": "EUR_USD"
+  lookback_candles: 300
+  timeframe: "4h"
+
+execution:
+  paper_balance: 10000.0
+
+backtest:
+  enabled: true
+  instrument: "EUR_USD"
+  granularity: "H4"
+  start: "2023-01-01T00:00:00Z"
+  end: "2023-12-31T23:59:59Z"
+  initial_balance: 10000
+  spread_pips: 1.2
+  slippage_bps: 2
+  entry_mode: "NEXT_OPEN"   # NEXT_OPEN or CLOSE
+  conservative_intrabar: true
+  output_dir: "logs/backtests"
+  use_event_filter: true
+  event_cache_mode: "CACHE_ONLY"
+
+events:
+  enabled: true
+  provider: "mock" # "oanda" for real
+  horizon_days: 14
+  currencies_by_instrument:
+    "EUR_USD": ["EUR", "USD"]
+    "GBP_USD": ["GBP", "USD"]
+    "USD_JPY": ["USD", "JPY"]
+  stand_down:
+    impact_levels: ["HIGH"]
+    pre_minutes: 60
+    post_minutes: 30
+  caution:
+    impact_levels: ["MEDIUM"]
+    pre_minutes: 30
+    post_minutes: 15
+  behavior:
+    block_new_entries: true
+    allow_manage_existing_positions: true
+  cache_dir: "data/cache"

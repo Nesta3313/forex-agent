@@ -1,0 +1,12 @@
+{
+  "total_trades": 75,
+  "win_rate": 0.44,
+  "net_profit": 77.36,
+  "avg_trade": 1.03,
+  "avg_win": 71.98,
+  "avg_loss": -54.72,
+  "profit_factor": 1.03,
+  "max_drawdown": 667.7077,
+  "max_drawdown_pct": 0.0668,
+  "equity_final": 10077.36
+}

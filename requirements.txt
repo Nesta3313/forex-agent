@@ -1,0 +1,15 @@
+pandas
+numpy
+pyyaml
+requests
+apscheduler
+pydantic
+ta-lib-bin; platform_system == "Windows"
+ta-lib; platform_system != "Windows"
+python-dotenv
+yfinance
+streamlit
+plotly
+watchdog
+portalocker>=2.7.0
+reportlab

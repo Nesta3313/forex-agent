@@ -1,0 +1,30 @@
+{
+  "header": {
+    "title": "Shadow Observation Period Report",
+    "status": "INSUFFICIENT_DATA",
+    "window_start_utc": "2025-12-23T00:00:00+00:00",
+    "window_end_utc": "2025-12-29T18:31:29.140190+00:00",
+    "generated_at": "2025-12-30T00:31:29.141662+00:00"
+  },
+  "metrics": {
+    "violations": 0,
+    "violation_details": [],
+    "max_dd": 0.0,
+    "risk_avg": 0.0,
+    "risk_max": 0.0,
+    "no_trade_pct": 0.0,
+    "sd_entries": 0,
+    "blocked_attempts": 0,
+    "be_activations": 0,
+    "trailing_exits": 0,
+    "integrity_status": "PASS",
+    "integrity_errors": [],
+    "duplicates": 0,
+    "last_tick": null,
+    "total_ticks": 0,
+    "trade_count": 0,
+    "equity_data": null,
+    "start_ts": "2025-12-23T00:00:00+00:00",
+    "end_ts": "2025-12-29T18:31:29.140190+00:00"
+  }
+}

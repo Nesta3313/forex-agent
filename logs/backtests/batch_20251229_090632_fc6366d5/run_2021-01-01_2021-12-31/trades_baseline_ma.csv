@@ -1,0 +1,2 @@
+direction,entry_time,entry_price,size,exit_time,exit_price,pnl,exit_reason
+BUY,2021-02-24 02:00:00,1.21588,0.1,2021-03-05 02:00:00,1.19607,-198.10000000000105,SELL
