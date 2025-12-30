@@ -1,5 +1,6 @@
 import time
 import signal
+import os
 import sys
 from pathlib import Path
 from datetime import datetime, timedelta
@@ -7,6 +8,7 @@ from datetime import datetime, timedelta
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
+from datetime import timezone as dt_timezone
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
 from src.core.config import config
@@ -111,19 +113,40 @@ def job_tick():
     except Exception as e:
         logger.error(f"Error in tick job: {e}", exc_info=True)
 
+def job_heartbeat():
+    """
+    Lightweight heartbeat to confirm system liveness without market data calls.
+    Logs every 5 minutes.
+    """
+    try:
+        log_audit_event("HEARTBEAT", {
+            "status": "ALIVE",
+            "timestamp": datetime.now(dt_timezone.utc).isoformat(),
+            "pid": os.getpid()
+        })
+    except Exception as e:
+        logger.error(f"Error in heartbeat: {e}")
+
 def main():
     logger.info("Starting Forex Agent (Production Shadow Mode)...")
     
     scheduler = BlockingScheduler()
     
-    # TEST MODE: Run every 1 minute
-    trigger = CronTrigger(minute='*')
+    # 1. Main Strategy Tick (4H Candle Boundarie)
+    # Hour 0, 4, 8, 12, 16, 20 at minute 2 UTC
+    trigger_tick = CronTrigger(
+        hour='0,4,8,12,16,20', 
+        minute='2', 
+        timezone=dt_timezone.utc
+    )
+    scheduler.add_job(job_tick, trigger_tick, id="main_tick")
     
-    # Production 4H Schedule (Commented out for testing)
-    # trigger = CronTrigger(hour='0,4,8,12,16,20', minute='2')
+    # 2. Observability Heartbeat (Every 5 Minutes)
+    trigger_heartbeat = CronTrigger(minute='*/5', timezone=dt_timezone.utc)
+    scheduler.add_job(job_heartbeat, trigger_heartbeat, id="heartbeat")
     
-    scheduler.add_job(job_tick, trigger)
-    logger.info(f"Scheduler started. Next run at: {trigger.get_next_fire_time(None, datetime.now())}")
+    logger.info(f"Scheduler started (UTC). Next tick at: {trigger_tick.get_next_fire_time(None, datetime.now(dt_timezone.utc))}")
+    logger.info(f"Heartbeat scheduled every 5 minutes.")
     
     # Run once immediately for Verification if argument provided
     if "--run-once" in sys.argv:

@@ -3743,3 +3743,563 @@ KeyError: 'stop_loss'
 2025-12-29 22:01:00,935 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
 2025-12-29 22:01:00,938 [WARNING] main: No data received. Skipping tick.
 2025-12-29 22:01:00,938 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:02:00 CST)" executed successfully
+2025-12-29 22:02:00,004 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:03:00 CST)" (scheduled at 2025-12-29 22:02:00-06:00)
+2025-12-29 22:02:00,005 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:02:00,423 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:02:00,427 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:02:00,427 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:03:00 CST)" executed successfully
+2025-12-29 22:03:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:04:00 CST)" (scheduled at 2025-12-29 22:03:00-06:00)
+2025-12-29 22:03:00,014 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:03:00,420 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:03:00,427 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:03:00,428 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:04:00 CST)" executed successfully
+2025-12-29 22:04:00,010 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:05:00 CST)" (scheduled at 2025-12-29 22:04:00-06:00)
+2025-12-29 22:04:00,012 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:04:00,414 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:04:00,415 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:04:00,415 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:05:00 CST)" executed successfully
+2025-12-29 22:05:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:06:00 CST)" (scheduled at 2025-12-29 22:05:00-06:00)
+2025-12-29 22:05:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:05:00,261 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:05:00,271 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:05:00,271 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:06:00 CST)" executed successfully
+2025-12-29 22:06:00,002 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:07:00 CST)" (scheduled at 2025-12-29 22:06:00-06:00)
+2025-12-29 22:06:00,003 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:06:00,335 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:06:00,336 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:06:00,337 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:07:00 CST)" executed successfully
+2025-12-29 22:07:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:08:00 CST)" (scheduled at 2025-12-29 22:07:00-06:00)
+2025-12-29 22:07:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:07:00,766 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:07:00,769 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:07:00,769 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:08:00 CST)" executed successfully
+2025-12-29 22:08:00,003 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:09:00 CST)" (scheduled at 2025-12-29 22:08:00-06:00)
+2025-12-29 22:08:00,005 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:08:00,379 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:08:00,396 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:08:00,396 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:09:00 CST)" executed successfully
+2025-12-29 22:09:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:10:00 CST)" (scheduled at 2025-12-29 22:09:00-06:00)
+2025-12-29 22:09:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:09:00,280 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:09:00,284 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:09:00,284 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:10:00 CST)" executed successfully
+2025-12-29 22:10:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:11:00 CST)" (scheduled at 2025-12-29 22:10:00-06:00)
+2025-12-29 22:10:00,008 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:10:00,348 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:10:00,350 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:10:00,350 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:11:00 CST)" executed successfully
+2025-12-29 22:11:00,011 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:12:00 CST)" (scheduled at 2025-12-29 22:11:00-06:00)
+2025-12-29 22:11:00,012 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:11:00,364 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:11:00,369 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:11:00,369 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:12:00 CST)" executed successfully
+2025-12-29 22:12:00,009 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:13:00 CST)" (scheduled at 2025-12-29 22:12:00-06:00)
+2025-12-29 22:12:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:12:00,307 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:12:00,311 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:12:00,311 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:13:00 CST)" executed successfully
+2025-12-29 22:13:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:14:00 CST)" (scheduled at 2025-12-29 22:13:00-06:00)
+2025-12-29 22:13:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:13:00,401 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:13:00,404 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:13:00,404 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:14:00 CST)" executed successfully
+2025-12-29 22:14:00,004 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:15:00 CST)" (scheduled at 2025-12-29 22:14:00-06:00)
+2025-12-29 22:14:00,004 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:14:00,228 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:14:00,230 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:14:00,230 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:15:00 CST)" executed successfully
+2025-12-29 22:15:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:16:00 CST)" (scheduled at 2025-12-29 22:15:00-06:00)
+2025-12-29 22:15:00,006 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:15:00,393 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:15:00,396 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:15:00,397 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:16:00 CST)" executed successfully
+2025-12-29 22:16:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:17:00 CST)" (scheduled at 2025-12-29 22:16:00-06:00)
+2025-12-29 22:16:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:16:00,874 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:16:00,879 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:16:00,879 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:17:00 CST)" executed successfully
+2025-12-29 22:17:00,001 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:18:00 CST)" (scheduled at 2025-12-29 22:17:00-06:00)
+2025-12-29 22:17:00,002 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:17:00,701 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:17:00,704 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:17:00,704 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:18:00 CST)" executed successfully
+2025-12-29 22:18:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:19:00 CST)" (scheduled at 2025-12-29 22:18:00-06:00)
+2025-12-29 22:18:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:18:00,725 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:18:00,729 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:18:00,730 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:19:00 CST)" executed successfully
+2025-12-29 22:19:00,004 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:20:00 CST)" (scheduled at 2025-12-29 22:19:00-06:00)
+2025-12-29 22:19:00,006 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:19:00,348 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:19:00,350 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:19:00,350 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:20:00 CST)" executed successfully
+2025-12-29 22:20:00,003 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:21:00 CST)" (scheduled at 2025-12-29 22:20:00-06:00)
+2025-12-29 22:20:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:20:00,396 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:20:00,400 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:20:00,400 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:21:00 CST)" executed successfully
+2025-12-29 22:21:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:22:00 CST)" (scheduled at 2025-12-29 22:21:00-06:00)
+2025-12-29 22:21:00,014 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:21:00,285 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:21:00,289 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:21:00,290 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:22:00 CST)" executed successfully
+2025-12-29 22:22:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:23:00 CST)" (scheduled at 2025-12-29 22:22:00-06:00)
+2025-12-29 22:22:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:22:00,339 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:22:00,340 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:22:00,340 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:23:00 CST)" executed successfully
+2025-12-29 22:23:00,003 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:24:00 CST)" (scheduled at 2025-12-29 22:23:00-06:00)
+2025-12-29 22:23:00,005 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:23:00,243 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:23:00,245 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:23:00,245 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:24:00 CST)" executed successfully
+2025-12-29 22:24:00,008 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:25:00 CST)" (scheduled at 2025-12-29 22:24:00-06:00)
+2025-12-29 22:24:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:24:00,350 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:24:00,352 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:24:00,352 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:25:00 CST)" executed successfully
+2025-12-29 22:25:00,010 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:26:00 CST)" (scheduled at 2025-12-29 22:25:00-06:00)
+2025-12-29 22:25:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:25:00,308 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:25:00,312 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:25:00,312 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:26:00 CST)" executed successfully
+2025-12-29 22:26:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:27:00 CST)" (scheduled at 2025-12-29 22:26:00-06:00)
+2025-12-29 22:26:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:26:00,851 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:26:00,854 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:26:00,854 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:27:00 CST)" executed successfully
+2025-12-29 22:27:00,009 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:28:00 CST)" (scheduled at 2025-12-29 22:27:00-06:00)
+2025-12-29 22:27:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:27:00,343 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:27:00,346 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:27:00,346 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:28:00 CST)" executed successfully
+2025-12-29 22:28:00,011 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:29:00 CST)" (scheduled at 2025-12-29 22:28:00-06:00)
+2025-12-29 22:28:00,013 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:28:00,350 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:28:00,355 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:28:00,355 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:29:00 CST)" executed successfully
+2025-12-29 22:29:00,008 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:30:00 CST)" (scheduled at 2025-12-29 22:29:00-06:00)
+2025-12-29 22:29:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:29:00,319 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:29:00,325 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:29:00,325 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:30:00 CST)" executed successfully
+2025-12-29 22:30:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:31:00 CST)" (scheduled at 2025-12-29 22:30:00-06:00)
+2025-12-29 22:30:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:30:00,255 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:30:00,260 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:30:00,260 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:31:00 CST)" executed successfully
+2025-12-29 22:31:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:32:00 CST)" (scheduled at 2025-12-29 22:31:00-06:00)
+2025-12-29 22:31:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:31:00,375 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:31:00,379 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:31:00,379 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:32:00 CST)" executed successfully
+2025-12-29 22:32:00,002 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:33:00 CST)" (scheduled at 2025-12-29 22:32:00-06:00)
+2025-12-29 22:32:00,002 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:32:00,302 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:32:00,304 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:32:00,304 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:33:00 CST)" executed successfully
+2025-12-29 22:33:00,017 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:34:00 CST)" (scheduled at 2025-12-29 22:33:00-06:00)
+2025-12-29 22:33:00,018 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:33:00,823 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:33:00,827 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:33:00,827 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:34:00 CST)" executed successfully
+2025-12-29 22:34:00,012 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:35:00 CST)" (scheduled at 2025-12-29 22:34:00-06:00)
+2025-12-29 22:34:00,012 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:34:00,724 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:34:00,727 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:34:00,728 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:35:00 CST)" executed successfully
+2025-12-29 22:35:00,010 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:36:00 CST)" (scheduled at 2025-12-29 22:35:00-06:00)
+2025-12-29 22:35:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:35:00,281 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:35:00,284 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:35:00,284 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:36:00 CST)" executed successfully
+2025-12-29 22:36:00,015 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:37:00 CST)" (scheduled at 2025-12-29 22:36:00-06:00)
+2025-12-29 22:36:00,016 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:36:00,781 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:36:00,786 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:36:00,786 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:37:00 CST)" executed successfully
+2025-12-29 22:37:34,519 [WARNING] apscheduler.executors.default: Run time of job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:38:00 CST)" was missed by 0:00:34.519370
+2025-12-29 22:38:00,010 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:39:00 CST)" (scheduled at 2025-12-29 22:38:00-06:00)
+2025-12-29 22:38:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:38:00,326 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:38:00,331 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:38:00,331 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:39:00 CST)" executed successfully
+2025-12-29 22:39:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:40:00 CST)" (scheduled at 2025-12-29 22:39:00-06:00)
+2025-12-29 22:39:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:39:00,363 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:39:00,366 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:39:00,366 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:40:00 CST)" executed successfully
+2025-12-29 22:40:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:41:00 CST)" (scheduled at 2025-12-29 22:40:00-06:00)
+2025-12-29 22:40:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:40:00,347 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:40:00,349 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:40:00,349 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:41:00 CST)" executed successfully
+2025-12-29 22:41:00,015 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:42:00 CST)" (scheduled at 2025-12-29 22:41:00-06:00)
+2025-12-29 22:41:00,015 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:41:00,261 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:41:00,263 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:41:00,263 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:42:00 CST)" executed successfully
+2025-12-29 22:42:00,001 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:43:00 CST)" (scheduled at 2025-12-29 22:42:00-06:00)
+2025-12-29 22:42:00,002 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:42:00,786 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:42:00,790 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:42:00,790 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:43:00 CST)" executed successfully
+2025-12-29 22:43:00,009 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:44:00 CST)" (scheduled at 2025-12-29 22:43:00-06:00)
+2025-12-29 22:43:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:43:00,253 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:43:00,256 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:43:00,256 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:44:00 CST)" executed successfully
+2025-12-29 22:44:00,021 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:45:00 CST)" (scheduled at 2025-12-29 22:44:00-06:00)
+2025-12-29 22:44:00,021 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:44:00,240 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:44:00,243 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:44:00,243 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:45:00 CST)" executed successfully
+2025-12-29 22:45:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:46:00 CST)" (scheduled at 2025-12-29 22:45:00-06:00)
+2025-12-29 22:45:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:45:00,289 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:45:00,295 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:45:00,295 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:46:00 CST)" executed successfully
+2025-12-29 22:46:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:47:00 CST)" (scheduled at 2025-12-29 22:46:00-06:00)
+2025-12-29 22:46:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:46:00,306 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:46:00,309 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:46:00,309 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:47:00 CST)" executed successfully
+2025-12-29 22:47:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:48:00 CST)" (scheduled at 2025-12-29 22:47:00-06:00)
+2025-12-29 22:47:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:47:00,311 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:47:00,313 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:47:00,313 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:48:00 CST)" executed successfully
+2025-12-29 22:48:00,011 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:49:00 CST)" (scheduled at 2025-12-29 22:48:00-06:00)
+2025-12-29 22:48:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:48:00,258 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:48:00,262 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:48:00,262 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:49:00 CST)" executed successfully
+2025-12-29 22:49:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:50:00 CST)" (scheduled at 2025-12-29 22:49:00-06:00)
+2025-12-29 22:49:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:49:00,386 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:49:00,390 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:49:00,390 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:50:00 CST)" executed successfully
+2025-12-29 22:50:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:51:00 CST)" (scheduled at 2025-12-29 22:50:00-06:00)
+2025-12-29 22:50:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:50:00,422 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:50:00,428 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:50:00,428 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:51:00 CST)" executed successfully
+2025-12-29 22:51:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:52:00 CST)" (scheduled at 2025-12-29 22:51:00-06:00)
+2025-12-29 22:51:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:51:00,440 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:51:00,443 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:51:00,443 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:52:00 CST)" executed successfully
+2025-12-29 22:52:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:53:00 CST)" (scheduled at 2025-12-29 22:52:00-06:00)
+2025-12-29 22:52:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:52:00,808 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:52:00,821 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:52:00,821 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:53:00 CST)" executed successfully
+2025-12-29 22:53:00,009 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:54:00 CST)" (scheduled at 2025-12-29 22:53:00-06:00)
+2025-12-29 22:53:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:53:00,255 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:53:00,270 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:53:00,270 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:54:00 CST)" executed successfully
+2025-12-29 22:54:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:55:00 CST)" (scheduled at 2025-12-29 22:54:00-06:00)
+2025-12-29 22:54:00,008 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:54:00,272 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:54:00,277 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:54:00,277 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:55:00 CST)" executed successfully
+2025-12-29 22:55:00,001 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:56:00 CST)" (scheduled at 2025-12-29 22:55:00-06:00)
+2025-12-29 22:55:00,001 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:55:00,873 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:55:00,880 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:55:00,880 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:56:00 CST)" executed successfully
+2025-12-29 22:56:00,001 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:57:00 CST)" (scheduled at 2025-12-29 22:56:00-06:00)
+2025-12-29 22:56:00,002 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:56:00,259 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:56:00,260 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:56:00,261 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:57:00 CST)" executed successfully
+2025-12-29 22:57:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:58:00 CST)" (scheduled at 2025-12-29 22:57:00-06:00)
+2025-12-29 22:57:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:57:00,269 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:57:00,272 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:57:00,272 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:58:00 CST)" executed successfully
+2025-12-29 22:58:00,003 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:59:00 CST)" (scheduled at 2025-12-29 22:58:00-06:00)
+2025-12-29 22:58:00,003 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:58:00,789 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:58:00,791 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:58:00,791 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 22:59:00 CST)" executed successfully
+2025-12-29 22:59:00,014 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:00:00 CST)" (scheduled at 2025-12-29 22:59:00-06:00)
+2025-12-29 22:59:00,020 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 22:59:00,269 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 22:59:00,272 [WARNING] main: No data received. Skipping tick.
+2025-12-29 22:59:00,272 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:00:00 CST)" executed successfully
+2025-12-29 23:00:00,023 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:01:00 CST)" (scheduled at 2025-12-29 23:00:00-06:00)
+2025-12-29 23:00:00,024 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:00:00,346 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:00:00,348 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:00:00,348 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:01:00 CST)" executed successfully
+2025-12-29 23:01:00,011 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:02:00 CST)" (scheduled at 2025-12-29 23:01:00-06:00)
+2025-12-29 23:01:00,013 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:01:01,315 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:01:01,317 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:01:01,318 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:02:00 CST)" executed successfully
+2025-12-29 23:02:00,014 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:03:00 CST)" (scheduled at 2025-12-29 23:02:00-06:00)
+2025-12-29 23:02:00,016 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:02:00,342 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:02:00,345 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:02:00,345 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:03:00 CST)" executed successfully
+2025-12-29 23:03:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:04:00 CST)" (scheduled at 2025-12-29 23:03:00-06:00)
+2025-12-29 23:03:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:03:00,401 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:03:00,405 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:03:00,405 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:04:00 CST)" executed successfully
+2025-12-29 23:04:00,011 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:05:00 CST)" (scheduled at 2025-12-29 23:04:00-06:00)
+2025-12-29 23:04:00,013 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:04:00,305 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:04:00,311 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:04:00,311 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:05:00 CST)" executed successfully
+2025-12-29 23:05:00,012 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:06:00 CST)" (scheduled at 2025-12-29 23:05:00-06:00)
+2025-12-29 23:05:00,013 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:05:00,287 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:05:00,292 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:05:00,292 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:06:00 CST)" executed successfully
+2025-12-29 23:06:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:07:00 CST)" (scheduled at 2025-12-29 23:06:00-06:00)
+2025-12-29 23:06:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:06:00,352 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:06:00,354 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:06:00,354 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:07:00 CST)" executed successfully
+2025-12-29 23:07:00,004 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:08:00 CST)" (scheduled at 2025-12-29 23:07:00-06:00)
+2025-12-29 23:07:00,006 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:07:00,312 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:07:00,315 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:07:00,315 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:08:00 CST)" executed successfully
+2025-12-29 23:08:00,008 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:09:00 CST)" (scheduled at 2025-12-29 23:08:00-06:00)
+2025-12-29 23:08:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:08:00,310 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:08:00,314 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:08:00,314 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:09:00 CST)" executed successfully
+2025-12-29 23:09:00,009 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:10:00 CST)" (scheduled at 2025-12-29 23:09:00-06:00)
+2025-12-29 23:09:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:09:00,339 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:09:00,346 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:09:00,346 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:10:00 CST)" executed successfully
+2025-12-29 23:10:00,004 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:11:00 CST)" (scheduled at 2025-12-29 23:10:00-06:00)
+2025-12-29 23:10:00,005 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:10:00,283 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:10:00,286 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:10:00,286 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:11:00 CST)" executed successfully
+2025-12-29 23:11:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:12:00 CST)" (scheduled at 2025-12-29 23:11:00-06:00)
+2025-12-29 23:11:00,008 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:11:00,244 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:11:00,246 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:11:00,246 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:12:00 CST)" executed successfully
+2025-12-29 23:12:00,011 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:13:00 CST)" (scheduled at 2025-12-29 23:12:00-06:00)
+2025-12-29 23:12:00,012 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:12:00,720 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:12:00,732 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:12:00,732 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:13:00 CST)" executed successfully
+2025-12-29 23:13:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:14:00 CST)" (scheduled at 2025-12-29 23:13:00-06:00)
+2025-12-29 23:13:00,006 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:13:00,299 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:13:00,300 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:13:00,301 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:14:00 CST)" executed successfully
+2025-12-29 23:14:00,001 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:15:00 CST)" (scheduled at 2025-12-29 23:14:00-06:00)
+2025-12-29 23:14:00,001 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:14:00,357 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:14:00,362 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:14:00,362 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:15:00 CST)" executed successfully
+2025-12-29 23:15:00,012 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:16:00 CST)" (scheduled at 2025-12-29 23:15:00-06:00)
+2025-12-29 23:15:00,012 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:15:00,265 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:15:00,269 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:15:00,269 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:16:00 CST)" executed successfully
+2025-12-29 23:16:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:17:00 CST)" (scheduled at 2025-12-29 23:16:00-06:00)
+2025-12-29 23:16:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:16:00,919 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:16:00,927 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:16:00,927 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:17:00 CST)" executed successfully
+2025-12-29 23:17:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:18:00 CST)" (scheduled at 2025-12-29 23:17:00-06:00)
+2025-12-29 23:17:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:17:00,415 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:17:00,419 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:17:00,419 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:18:00 CST)" executed successfully
+2025-12-29 23:18:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:19:00 CST)" (scheduled at 2025-12-29 23:18:00-06:00)
+2025-12-29 23:18:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:18:00,336 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:18:00,348 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:18:00,348 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:19:00 CST)" executed successfully
+2025-12-29 23:19:00,012 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:20:00 CST)" (scheduled at 2025-12-29 23:19:00-06:00)
+2025-12-29 23:19:00,014 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:19:00,273 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:19:00,276 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:19:00,276 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:20:00 CST)" executed successfully
+2025-12-29 23:20:00,009 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:21:00 CST)" (scheduled at 2025-12-29 23:20:00-06:00)
+2025-12-29 23:20:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:20:00,354 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:20:00,356 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:20:00,356 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:21:00 CST)" executed successfully
+2025-12-29 23:21:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:22:00 CST)" (scheduled at 2025-12-29 23:21:00-06:00)
+2025-12-29 23:21:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:21:00,343 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:21:00,348 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:21:00,348 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:22:00 CST)" executed successfully
+2025-12-29 23:22:00,014 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:23:00 CST)" (scheduled at 2025-12-29 23:22:00-06:00)
+2025-12-29 23:22:00,016 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 23:22:00,298 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 23:22:00,302 [WARNING] main: No data received. Skipping tick.
+2025-12-29 23:22:00,302 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 23:23:00 CST)" executed successfully
+2025-12-30 00:12:22,058 [WARNING] apscheduler.executors.default: Run time of job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:13:00 CST)" was missed by 0:00:22.058382
+2025-12-30 00:13:00,012 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:14:00 CST)" (scheduled at 2025-12-30 00:13:00-06:00)
+2025-12-30 00:13:00,013 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:13:00,335 [INFO] main: Managing 2 open positions...
+2025-12-30 00:13:00,335 [ERROR] main: Error in tick job: 'stop_loss'
+Traceback (most recent call last):
+  File "/Users/ria/Documents/work/forex-agent/src/main.py", line 71, in job_tick
+    sl = pos['stop_loss']
+         ~~~^^^^^^^^^^^^^
+KeyError: 'stop_loss'
+2025-12-30 00:13:00,336 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:14:00 CST)" executed successfully
+2025-12-30 00:14:00,008 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:15:00 CST)" (scheduled at 2025-12-30 00:14:00-06:00)
+2025-12-30 00:14:00,008 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:14:00,426 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:14:00,430 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:14:00,430 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:15:00 CST)" executed successfully
+2025-12-30 00:15:00,006 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:16:00 CST)" (scheduled at 2025-12-30 00:15:00-06:00)
+2025-12-30 00:15:00,008 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:15:00,228 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:15:00,229 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:15:00,229 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:16:00 CST)" executed successfully
+2025-12-30 00:16:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:17:00 CST)" (scheduled at 2025-12-30 00:16:00-06:00)
+2025-12-30 00:16:00,006 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:16:00,265 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:16:00,268 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:16:00,268 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:17:00 CST)" executed successfully
+2025-12-30 00:17:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:18:00 CST)" (scheduled at 2025-12-30 00:17:00-06:00)
+2025-12-30 00:17:00,006 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:17:00,256 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:17:00,259 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:17:00,259 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:18:00 CST)" executed successfully
+2025-12-30 00:18:00,007 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:19:00 CST)" (scheduled at 2025-12-30 00:18:00-06:00)
+2025-12-30 00:18:00,008 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:18:00,321 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:18:00,325 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:18:00,325 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:19:00 CST)" executed successfully
+2025-12-30 00:19:00,009 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:20:00 CST)" (scheduled at 2025-12-30 00:19:00-06:00)
+2025-12-30 00:19:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:19:00,644 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:19:00,646 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:19:00,646 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:20:00 CST)" executed successfully
+2025-12-30 00:20:00,002 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:21:00 CST)" (scheduled at 2025-12-30 00:20:00-06:00)
+2025-12-30 00:20:00,003 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:20:00,575 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:20:00,578 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:20:00,578 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:21:00 CST)" executed successfully
+2025-12-30 00:21:00,003 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:22:00 CST)" (scheduled at 2025-12-30 00:21:00-06:00)
+2025-12-30 00:21:00,005 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:21:00,383 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:21:00,383 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:21:00,383 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:22:00 CST)" executed successfully
+2025-12-30 00:22:00,014 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:23:00 CST)" (scheduled at 2025-12-30 00:22:00-06:00)
+2025-12-30 00:22:00,016 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:22:00,319 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:22:00,320 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:22:00,320 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:23:00 CST)" executed successfully
+2025-12-30 00:23:00,005 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:24:00 CST)" (scheduled at 2025-12-30 00:23:00-06:00)
+2025-12-30 00:23:00,007 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:23:00,303 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:23:00,305 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:23:00,306 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:24:00 CST)" executed successfully
+2025-12-30 00:24:00,016 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:25:00 CST)" (scheduled at 2025-12-30 00:24:00-06:00)
+2025-12-30 00:24:00,018 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:24:00,256 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:24:00,261 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:24:00,261 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:25:00 CST)" executed successfully
+2025-12-30 00:25:00,012 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:26:00 CST)" (scheduled at 2025-12-30 00:25:00-06:00)
+2025-12-30 00:25:00,013 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:25:00,260 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:25:00,264 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:25:00,264 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:26:00 CST)" executed successfully
+2025-12-30 00:26:00,017 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:27:00 CST)" (scheduled at 2025-12-30 00:26:00-06:00)
+2025-12-30 00:26:00,020 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:26:00,268 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:26:00,274 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:26:00,274 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:27:00 CST)" executed successfully
+2025-12-30 00:27:00,013 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:28:00 CST)" (scheduled at 2025-12-30 00:27:00-06:00)
+2025-12-30 00:27:00,014 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:27:00,848 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:27:00,851 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:27:00,851 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:28:00 CST)" executed successfully
+2025-12-30 00:28:00,018 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:29:00 CST)" (scheduled at 2025-12-30 00:28:00-06:00)
+2025-12-30 00:28:00,020 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:28:00,336 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:28:00,358 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:28:00,358 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:29:00 CST)" executed successfully
+2025-12-30 00:29:00,010 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:30:00 CST)" (scheduled at 2025-12-30 00:29:00-06:00)
+2025-12-30 00:29:00,011 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:29:00,235 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:29:00,238 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:29:00,238 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:30:00 CST)" executed successfully
+2025-12-30 00:30:00,011 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:31:00 CST)" (scheduled at 2025-12-30 00:30:00-06:00)
+2025-12-30 00:30:00,012 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:30:00,364 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:30:00,368 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:30:00,368 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:31:00 CST)" executed successfully
+2025-12-30 00:31:00,008 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:32:00 CST)" (scheduled at 2025-12-30 00:31:00-06:00)
+2025-12-30 00:31:00,010 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:31:00,238 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:31:00,242 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:31:00,242 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:32:00 CST)" executed successfully
+2025-12-30 00:32:00,008 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:33:00 CST)" (scheduled at 2025-12-30 00:32:00-06:00)
+2025-12-30 00:32:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:32:00,496 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:32:00,498 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:32:00,498 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:33:00 CST)" executed successfully
+2025-12-30 00:32:07,916 [INFO] root: Logging initialized.
+2025-12-30 00:32:07,952 [ERROR] main: Error in heartbeat: name 'os' is not defined
+2025-12-30 00:32:18,826 [INFO] root: Logging initialized.
+2025-12-30 00:33:00,008 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:34:00 CST)" (scheduled at 2025-12-30 00:33:00-06:00)
+2025-12-30 00:33:00,009 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:33:00,263 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:33:00,265 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:33:00,265 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:34:00 CST)" executed successfully
+2025-12-30 00:34:00,013 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:35:00 CST)" (scheduled at 2025-12-30 00:34:00-06:00)
+2025-12-30 00:34:00,014 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:34:00,453 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-30 02:00:00
+2025-12-30 00:34:00,457 [WARNING] main: No data received. Skipping tick.
+2025-12-30 00:34:00,457 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-30 00:35:00 CST)" executed successfully
+2025-12-30 00:34:42,005 [INFO] main: Agent stopping...
+2025-12-30 00:34:45,463 [INFO] root: Logging initialized.
+2025-12-30 00:34:45,474 [INFO] main: Starting Forex Agent (Production Shadow Mode)...
+2025-12-30 00:34:45,487 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 00:34:45,487 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 00:34:45,487 [INFO] main: Scheduler started (UTC). Next tick at: 2025-12-30 08:02:00+00:00
+2025-12-30 00:34:45,487 [INFO] main: Heartbeat scheduled every 5 minutes.
+2025-12-30 00:34:45,490 [INFO] apscheduler.scheduler: Added job "job_tick" to job store "default"
+2025-12-30 00:34:45,490 [INFO] apscheduler.scheduler: Added job "job_heartbeat" to job store "default"
+2025-12-30 00:34:45,490 [INFO] apscheduler.scheduler: Scheduler started
+2025-12-30 00:35:00,002 [INFO] apscheduler.executors.default: Running job "job_heartbeat (trigger: cron[minute='*/5'], next run at: 2025-12-30 06:40:00 UTC)" (scheduled at 2025-12-30 06:35:00+00:00)
+2025-12-30 00:35:00,005 [INFO] apscheduler.executors.default: Job "job_heartbeat (trigger: cron[minute='*/5'], next run at: 2025-12-30 06:40:00 UTC)" executed successfully
+2025-12-30 00:36:35,670 [INFO] root: Logging initialized.
+2025-12-30 00:36:36,014 [INFO] root: Logging initialized.
+2025-12-30 00:36:36,066 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:36:36,066 [WARNING] main: HARD GATE: Trading blocked by Economic event: FORCED STATUS (STAND_DOWN)
+2025-12-30 00:38:01,236 [INFO] root: Logging initialized.
+2025-12-30 00:38:01,805 [INFO] root: Logging initialized.
+2025-12-30 00:38:01,828 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:38:01,828 [WARNING] main: HARD GATE: Trading blocked by Economic event: FORCED STATUS (STAND_DOWN)
+2025-12-30 00:38:21,839 [INFO] root: Logging initialized.
+2025-12-30 00:38:22,150 [INFO] root: Logging initialized.
+2025-12-30 00:38:22,166 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:38:22,167 [WARNING] main: HARD GATE: Trading blocked by Economic event: FORCED STATUS (STAND_DOWN)
+2025-12-30 00:38:40,826 [INFO] main: Agent stopping...
+2025-12-30 00:38:44,685 [INFO] root: Logging initialized.
+2025-12-30 00:38:44,691 [INFO] main: Starting Forex Agent (Production Shadow Mode)...
+2025-12-30 00:38:44,695 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 00:38:44,696 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 00:38:44,696 [INFO] main: Scheduler started (UTC). Next tick at: 2025-12-30 08:02:00+00:00
+2025-12-30 00:38:44,696 [INFO] main: Heartbeat scheduled every 5 minutes.
+2025-12-30 00:38:44,697 [INFO] apscheduler.scheduler: Added job "job_tick" to job store "default"
+2025-12-30 00:38:44,697 [INFO] apscheduler.scheduler: Added job "job_heartbeat" to job store "default"
+2025-12-30 00:38:44,697 [INFO] apscheduler.scheduler: Scheduler started
+2025-12-30 00:39:57,003 [INFO] root: Logging initialized.
+2025-12-30 00:39:57,373 [INFO] root: Logging initialized.
+2025-12-30 00:39:57,393 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-30 00:39:57,393 [WARNING] main: HARD GATE: Trading blocked by Economic event: FORCED STATUS (STAND_DOWN)
+2025-12-30 00:40:00,005 [INFO] apscheduler.executors.default: Running job "job_heartbeat (trigger: cron[minute='*/5'], next run at: 2025-12-30 06:45:00 UTC)" (scheduled at 2025-12-30 06:40:00+00:00)
+2025-12-30 00:40:00,007 [INFO] apscheduler.executors.default: Job "job_heartbeat (trigger: cron[minute='*/5'], next run at: 2025-12-30 06:45:00 UTC)" executed successfully
