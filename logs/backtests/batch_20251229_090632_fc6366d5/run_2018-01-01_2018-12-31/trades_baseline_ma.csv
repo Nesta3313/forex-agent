@@ -1,2 +1,0 @@
-direction,entry_time,entry_price,size,exit_time,exit_price,pnl,exit_reason
-SELL_SHORT,2018-02-28 10:00:00,1.22202,0.1,2018-03-14 13:00:00,1.23634,-143.19999999999888,BUY_TO_COVER

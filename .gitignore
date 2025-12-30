@@ -1,2 +1,14 @@
 .env
 .env.*
+
+
+# Runtime logs & state
+logs/
+*.log
+*.jsonl
+*.csv
+state.json
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,2 +1,0 @@
-id,symbol,direction,entry_time,entry_price,sl,tp,size,exit_time,exit_price,exit_reason,pnl
-test-uuid,EUR_USD,BUY,2024-02-03 08:00:00,1.1002800000000001,1.102,1.2,0.1,2024-02-03 12:00:00,1.102,STOP_LOSS,17.199999999999438
