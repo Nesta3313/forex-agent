@@ -3688,3 +3688,8 @@ KeyError: 'stop_loss'
 2025-12-29 21:50:00,289 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
 2025-12-29 21:50:00,293 [WARNING] main: No data received. Skipping tick.
 2025-12-29 21:50:00,293 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 21:51:00 CST)" executed successfully
+2025-12-29 21:51:00,004 [INFO] apscheduler.executors.default: Running job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 21:52:00 CST)" (scheduled at 2025-12-29 21:51:00-06:00)
+2025-12-29 21:51:00,004 [INFO] main: --- 4H Candle Tick Start ---
+2025-12-29 21:51:00,890 [WARNING] src.modules.market.data_feed: Duplicate candle processed: 2025-12-29 22:00:00
+2025-12-29 21:51:00,893 [WARNING] main: No data received. Skipping tick.
+2025-12-29 21:51:00,893 [INFO] apscheduler.executors.default: Job "job_tick (trigger: cron[minute='*'], next run at: 2025-12-29 21:52:00 CST)" executed successfully
